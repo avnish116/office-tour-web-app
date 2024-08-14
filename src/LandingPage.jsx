@@ -10,20 +10,18 @@ const LandingPage = () => {
     }, []);
 
     return (
-        <body>
         <div className="landing-page">
             <div className="header">
                 <h1>Welcome to Nadi Office</h1>
             </div>
             <div className="content">
                 <div className="star-one">
-                <Link to="/virtual-tour">
-                    <button className={`start ${fadeClass}`}>Start Office Tour</button>
-                </Link>
+                    <Link to="/virtual-tour">
+                        <button className={`start ${fadeClass}`}>Start Office Tour</button>
+                    </Link>
                 </div>
             </div>
         </div>
-        </body>
     );
 };
 
