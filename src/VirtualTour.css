@@ -1,0 +1,11 @@
+.header-bar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10;
+  }
+  
